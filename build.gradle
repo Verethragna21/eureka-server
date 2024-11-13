@@ -13,6 +13,11 @@ java {
 	}
 }
 
+jar {
+	// Configure the jar task to avoid creating the plain jar
+	enabled = false
+}
+
 repositories {
 	mavenCentral()
 }
