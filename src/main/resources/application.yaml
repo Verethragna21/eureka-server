@@ -10,7 +10,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   server:
-    enableSelfPreservation: true
+    enableSelfPreservation: false
     evictionIntervalTimerInMs: 35000
     instance:
       health-check-url-path: /health
